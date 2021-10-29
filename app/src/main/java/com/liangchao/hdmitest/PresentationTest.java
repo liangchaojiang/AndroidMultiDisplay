@@ -19,6 +19,8 @@ package com.liangchao.hdmitest;
 // Need the following import to get access to the app resources, since this
 // class is in a sub-package.
 
+//创建开发分支做第一次提交与合并
+
 import android.Manifest;
 import android.app.Activity;
 import android.app.ActivityOptions;
