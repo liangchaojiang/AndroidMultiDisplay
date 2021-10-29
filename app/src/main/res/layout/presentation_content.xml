@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- The content that we show on secondary displays.
+     See corresponding Java code PresentationActivity.java. -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:keepScreenOn="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <VideoView
+                android:id="@+id/mVideoview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            <SeekBar
+                android:id="@+id/mSeekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mVideoview"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+    </FrameLayout>
+
+        <ImageView android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+        <!-- A caption. -->
+
+        <TextView android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_alignParentBottom="true"
+            >
+            <Button
+                android:text="@string/dialog_image_test"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/but_img"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:text="@string/dialog_video_test"
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/but_vid"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <!-- A picture for visual interest. -->
+
+
+</FrameLayout>
