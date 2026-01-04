@@ -210,7 +210,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qjG5qdezaQrEzghGQ8Hu-43" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="DisplayArea" vertex="1">
-          <mxGeometry height="86" width="160" x="-270" y="810" as="geometry" />
+          <mxGeometry height="86" width="160" x="-270" y="840" as="geometry" />
         </mxCell>
         <mxCell id="qjG5qdezaQrEzghGQ8Hu-44" parent="qjG5qdezaQrEzghGQ8Hu-43" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
