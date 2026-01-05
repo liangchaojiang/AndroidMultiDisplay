@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="tHQkyY941dqnZw6TK9m1">
-    <mxGraphModel dx="2276" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3126" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,8 +76,8 @@
             <mxPoint x="-429" y="261" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qjG5qdezaQrEzghGQ8Hu-11" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;代码路径&lt;/h1&gt;&lt;p&gt;frameworks/base/services/core/&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;java/com/android/server/wm/&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ConfigurationContainer.java&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;frameworks/base/services/core/java/com/android/server/wm/WindowContainer.java&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;frameworks/base/services/core/java/com/android/server/wm/RootWindowContainer.java&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;frameworks/base/services/core/java/com/android/server/wm/DisplayContent.java&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;frameworks/base/services/core/java/com/android/server/wm/RootDisplayArea.java&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;frameworks/base/services/core/java/com/android/server/wm/DisplayArea.java-&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Dimmable&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="620" width="670" x="-740" y="-1020" as="geometry" />
+        <mxCell id="qjG5qdezaQrEzghGQ8Hu-11" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;代码路径&lt;/h1&gt;&lt;p&gt;frameworks/base/services/core/&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;java/com/android/server/wm/&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ConfigurationContainer.java&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;frameworks/base/services/core/java/com/android/server/wm/WindowContainer.java&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;frameworks/base/services/core/java/com/android/server/wm/RootWindowContainer.java&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;frameworks/base/services/core/java/com/android/server/wm/DisplayContent.java&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;frameworks/base/services/core/java/com/android/server/wm/RootDisplayArea.java&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;frameworks/base/services/core/java/com/android/server/wm/DisplayArea.java-&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Dimmable&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;frameworks/base/services/core/java/com/android/server/wm/WindowState.java&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="620" width="670" x="-1640" y="-1040" as="geometry" />
         </mxCell>
         <mxCell id="qjG5qdezaQrEzghGQ8Hu-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="RootWindowContainer" vertex="1">
           <mxGeometry height="190" width="290" x="-785" y="1880" as="geometry" />
@@ -253,6 +253,60 @@
         <mxCell id="qjG5qdezaQrEzghGQ8Hu-68" connectable="0" parent="qjG5qdezaQrEzghGQ8Hu-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="泛型" vertex="1">
           <mxGeometry relative="1" x="-0.1373" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="WindowState" vertex="1">
+          <mxGeometry height="398" width="220" x="-1385" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-2" parent="mun8PebFs1M5iTRwwdvA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="mPolicy(WindowManagerPolicy)" vertex="1">
+          <mxGeometry height="26" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-5" parent="mun8PebFs1M5iTRwwdvA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="mContext" vertex="1">
+          <mxGeometry height="26" width="220" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-6" parent="mun8PebFs1M5iTRwwdvA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="mSession" vertex="1">
+          <mxGeometry height="26" width="220" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-8" parent="mun8PebFs1M5iTRwwdvA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="mClient(IWindow)" vertex="1">
+          <mxGeometry height="26" width="220" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-9" parent="mun8PebFs1M5iTRwwdvA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="mToken" vertex="1">
+          <mxGeometry height="26" width="220" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-10" parent="mun8PebFs1M5iTRwwdvA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="mActivityRecord" vertex="1">
+          <mxGeometry height="26" width="220" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-11" parent="mun8PebFs1M5iTRwwdvA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="mAttrs" vertex="1">
+          <mxGeometry height="26" width="220" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-12" parent="mun8PebFs1M5iTRwwdvA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="mInputChannel" vertex="1">
+          <mxGeometry height="26" width="220" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-3" parent="mun8PebFs1M5iTRwwdvA-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-4" parent="mun8PebFs1M5iTRwwdvA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="getRequestedVisibility" vertex="1">
+          <mxGeometry height="26" width="220" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-13" parent="mun8PebFs1M5iTRwwdvA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="setRequestedVisibilities" vertex="1">
+          <mxGeometry height="26" width="220" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-14" parent="mun8PebFs1M5iTRwwdvA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="attach" vertex="1">
+          <mxGeometry height="26" width="220" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-15" parent="mun8PebFs1M5iTRwwdvA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="onParentChanged" vertex="1">
+          <mxGeometry height="26" width="220" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-16" parent="mun8PebFs1M5iTRwwdvA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="setFrames" vertex="1">
+          <mxGeometry height="26" width="220" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-17" parent="mun8PebFs1M5iTRwwdvA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="getRootTask" vertex="1">
+          <mxGeometry height="26" width="220" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="mun8PebFs1M5iTRwwdvA-7" edge="1" parent="1" source="mun8PebFs1M5iTRwwdvA-1" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.55;exitY=-0.022;exitDx=0;exitDy=0;exitPerimeter=0;" target="fafjP00IF0j0XLZQyTR--21" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-1070" y="570" as="sourcePoint" />
+            <mxPoint x="-910" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
