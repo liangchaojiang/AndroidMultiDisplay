@@ -330,7 +330,7 @@
         <mxCell id="mun8PebFs1M5iTRwwdvA-18" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="WindowToken" vertex="1">
           <mxGeometry height="268" width="190" x="-1545" y="1100" as="geometry" />
         </mxCell>
-        <mxCell id="mun8PebFs1M5iTRwwdvA-19" parent="mun8PebFs1M5iTRwwdvA-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="token" vertex="1">
+        <mxCell id="mun8PebFs1M5iTRwwdvA-19" parent="mun8PebFs1M5iTRwwdvA-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="token(IBinder)" vertex="1">
           <mxGeometry height="26" width="190" y="26" as="geometry" />
         </mxCell>
         <mxCell id="mun8PebFs1M5iTRwwdvA-30" parent="mun8PebFs1M5iTRwwdvA-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="windowType" vertex="1">
